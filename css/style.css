@@ -7,6 +7,12 @@
     background-color: rgb(51, 5, 5);
 }
 
+.titleRecolor3{
+    color:white;
+    text-align: center;
+    padding-top:2em;
+}
+
 .footerRecolor {
     padding-top: 1em;
     padding-bottom: .5em;
@@ -44,6 +50,7 @@
     border-width: 2px;
     background-color: rgba(128, 128, 128, 0);
     margin-left: 2em;
+    color:white;
 }
 
 .linkRecolor {
