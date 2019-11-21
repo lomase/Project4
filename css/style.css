@@ -1,0 +1,87 @@
+.titleRecolor {
+    background-color: rgb(51, 5, 5);
+    color: white;
+}
+
+.titleRecolor2 {
+    background-color: rgb(51, 5, 5);
+}
+
+.footerRecolor {
+    padding-top: 1em;
+    padding-bottom: .5em;
+    background-color: rgb(51, 5, 5);
+    color: white;
+    text-align: center;
+}
+
+.navbar{
+    margin:0;
+    padding:0;
+}
+
+.navRecolor {
+    background-color: rgb(51, 5, 5);
+    color: white;
+    align-items: flex-end;
+}
+
+.nav-link:hover {
+    background-color: rgb(119, 17, 17);
+    color: white;
+
+}
+
+.btnMove {
+    display: flex;
+    justify-content: center;
+}
+
+.btnRecolor {
+    display: flex;
+    align-items: center;
+    border-color: white;
+    border-width: 2px;
+    background-color: rgba(128, 128, 128, 0);
+    margin-left: 2em;
+}
+
+.linkRecolor {
+    color: white;
+}
+
+.carEdit {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroSize {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/photo0jpg.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
