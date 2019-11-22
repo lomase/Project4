@@ -93,3 +93,11 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+
+.mainHero{
+    height: 100vh;
+}
+.colorBdy{
+    background-color: #800020;
+    padding: 0%;
+}
